@@ -37,7 +37,6 @@ def get_finest(tree: dict, *, is_full: bool = True) -> str:
     queue = deque(["RR"])
     while queue:
         node = tree[queue.popleft()]
-
         node.path += node.name if is_full else node.name[0]
         for child in node.children:
             if child == "@":
