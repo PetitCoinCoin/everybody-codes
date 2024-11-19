@@ -27,7 +27,15 @@
 |9|I|245|0|9h 46m 46s 601ms|9m 05s 608ms|
 |9|II|222|0|10h 10m 22s 537ms|32m 41s 544ms|
 |9|III|212|0|11h 28m 54s 804ms|1h 51m 13s 811ms|
+|10|I|286|0|1d 13h 20m 09s 346ms|18m 06s 789ms|
+|10|II|281|0|1d 16h 20m 52s 368ms|3h 18m 49s 811ms|
+|10|III|241|0|3d 10h 20m 29s 008ms|1d 21h 18m 26s 451ms|
+|11|I|284|0|15h 43m 16s 921ms|7m 56s 520ms|
+|11|II|281|0|15h 44m 54s 201ms|9m 33s 800ms|
+|11|III|261|0|15h 48m 42s 587ms|13m 22s 186ms|
 
 I tend to have trouble understanding the problems. Especially in Q8, it took me soooo long to get what to do for P2! For P3, I just forgot to click on Submit ><.
 
 Yeah I knew greedy woudn't be enough for Q9, even if it worked for P1...
+
+Omfmlffdsknl Q10 part III is so hugly XD. But it works. And quickly.
