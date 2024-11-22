@@ -33,6 +33,15 @@
 |11|I|284|0|15h 43m 16s 921ms|7m 56s 520ms|
 |11|II|281|0|15h 44m 54s 201ms|9m 33s 800ms|
 |11|III|261|0|15h 48m 42s 587ms|13m 22s 186ms|
+|12|I|234|0|14h 45m 11s 220ms|21m 02s 920ms|
+|12|II|227|0|14h 58m 00s 325ms|33m 52s 025ms|
+|12|III|158|0|1d 11h 32m 29s 845ms|21h 08m 21s 545ms|
+|13|I|219|0|22h 05m 45s 055ms|7h 00m 47s 873ms|
+|13|II|217|0|22h 07m 35s 857ms|7h 02m 38s 675ms|
+|13|III|214|0|22h 16m 37s 515ms|7h 11m 40s 333ms|
+|14|I|217|0|9h 02m 39s 503ms|11m 24s 910ms|
+|14|II|213|0|11h 10m 39s 610ms|2h 19m 25s 017ms|
+|14|III|200|0|14h 35m 40s 610ms|5h 44m 26s 017ms|
 
 I tend to have trouble understanding the problems. Especially in Q8, it took me soooo long to get what to do for P2! For P3, I just forgot to click on Submit ><.
 
