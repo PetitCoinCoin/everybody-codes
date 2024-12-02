@@ -1,3 +1,9 @@
+Nice quest! At the beginning I thought the explanations were unclear, but it improved over time.
+
+I discovered that I'm part of the time ranking leaderboard (51), which is nice and unexpected! But few people were involved this year, so...
+See you next year!
+
+
 |Quest|Part|Global Rank|Global Score|Global Time|Local Time|
 |---|---|---|---|---|---|
 |1|I|414|0|4d 12h 14m 35s 948ms|26m 20s 551ms|
@@ -57,6 +63,9 @@
 |19|I|163|0|14h 56m 50s 502ms|1h 16m 12s 690ms|
 |19|II|163|0|16h 36m 54s 624ms|2h 56m 16s 812ms|
 |19|III|97|54|22h 15m 30s 411ms|8h 34m 52s 599ms|
+|20|I|118|0|11h 38m 28s 580ms|35m 13s 458ms|
+|20|II|121|0|2d 10h 14m 41s 711ms|1d 23h 11m 26s 589ms|
+|20|III|97|54|2d 11h 49m 13s 895ms|2d 00h 45m 58s 773ms|
 
 I tend to have trouble understanding the problems. Especially in Q8, it took me soooo long to get what to do for P2! For P3, I just forgot to click on Submit ><.
 

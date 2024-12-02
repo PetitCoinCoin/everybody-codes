@@ -64,7 +64,6 @@ def irrigate(area: dict, start: set, nb_palms: int, *, is_part_three: bool = Fal
             palms += 1
             total_minutes += minutes
         if palms == nb_palms:
-            # print(start, total_minutes)
             return total_minutes if is_part_three else minutes
         for candidate in next_steps(area, step):
             if not candidate in seen:

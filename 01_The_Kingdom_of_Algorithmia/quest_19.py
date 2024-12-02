@@ -9,7 +9,7 @@ def _parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--part", "-p",
         type=int,
-        choices={1, 2, 3},
+        choices={1, 2, 3, 4},
         help="Set puzzle part"
     )
     args = parser.parse_args()
@@ -101,16 +101,20 @@ if __name__ == "__main__":
     if args.part == 1:
         print(decrypt(data, notes, rows, cols))
     elif args.part == 2:
-        for iteration in range(100):
+        for iteration in range(1024):
             decoded = decrypt(data, notes, rows, cols, iteration, part=2)
         print(decoded)
     else:
         cycle = rotate_cycle(data, notes, rows, cols)
-        end_state = squaring_exp(data, 1048576000, cycle, rows, cols)
+        end_state = squaring_exp(data, 1048576000 if args.part == 3 else 1024, cycle, rows, cols)
         for key, val in end_state.items():
             if val == ">":
                 start = key
             if val == "<":
                 end = key
-        print("".join(end_state[complex(c, int(start.imag))] for c in range(int(start.real) + 1, int(end.real))))
+        if args.part == 3:
+            print("".join(end_state[complex(c, int(start.imag))] for c in range(int(start.real) + 1, int(end.real))))
+        else:
+            for r in range(rows):
+                print("".join(end_state[complex(c, -r)] for c in range(cols)))
     print(time() - t)
