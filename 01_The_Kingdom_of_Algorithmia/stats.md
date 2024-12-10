@@ -1,6 +1,6 @@
 Nice quest! At the beginning I thought the explanations were unclear, but it improved over time.
 
-I discovered that I'm part of the time ranking leaderboard (51), which is nice and unexpected! But few people were involved this year, so...
+I discovered that I'm part of the time ranking leaderboard (57), which is nice and unexpected! But few people were involved this year, so...
 See you next year!
 
 
@@ -17,7 +17,7 @@ See you next year!
 |3|III|261|0|3d 07h 55m 25s 569ms|29m 44s 385ms|
 |4|I|270|0|2d 11h 02m 46s 253ms|3m 10s 150ms|
 |4|II|268|0|2d 11h 03m 38s 163ms|4m 02s 060ms|
-|4|III|265||2d 11h 07m 19s 841ms|7m 43s 738ms|
+|4|III|265|0|2d 11h 07m 19s 841ms|7m 43s 738ms|
 |5|I|230|0|1d 11h 52m 38s 682ms|42m 02s 019ms|
 |5|II|263|0|2d 14h 40m 11s 800ms|1d 03h 29m 35s 137ms|
 |5|III|248|0|2d 18h 41m 37s 394ms|1d 07h 31m 00s 731ms|
