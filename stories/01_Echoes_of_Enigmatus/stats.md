@@ -1,4 +1,4 @@
-I was late to the party and didn't expect any ranking but hey! Here I am, 51st by point and time!
+I was late to the party and didn't expect any ranking but hey! Here I am, 51st by time and 52nd by point!
 
 |Quest|Part|Global Rank|Global Time|Local Time|
 |---|---|---|---|---|
