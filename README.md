@@ -2,6 +2,7 @@
 Yet another coding challenge: https://everybody.codes
 
 [The Kingdom of Algorithmia](01_The_Kingdom_of_Algorithmia/stats.md)
+[The Song of Ducks and Dragons](02_The_Song_of_Ducks_and_Dragons/stats.md)
 
 #### Stories
 
