@@ -1,3 +1,5 @@
+Current ranking is 22nd by time and 24th by points. But this can still change!
+
 |Quest|Part|Global Rank|Global Time|Local Time|
 |---|---|---|---|---|
 |1|I|41|9h 31m 15s 186ms|2h 22m 34s 372ms|
@@ -6,8 +8,13 @@
 |2|I|37|6h 18m 51s 115ms|3m 20s 308ms|
 |2|II|34|6h 42m 16s 573ms|26m 45s 766ms|
 |2|III|30|8h 47m 02s 377ms|2h 31m 31s 570ms|
+|3|I|33|6h 55m 44s 356ms|23m 14s 354ms|
+|3|II|32|7h 26m 33s 500ms|54m 03s 498ms|
+|3|III|22|8h 52m 55s 808ms|2h 20m 25s 806ms|
 
 For Q1P3, I thought "6 among 20 is only 38 760 possibilities, this shouldn't take to long!". But I forgot the permutations too XD. Nevertheless, I didn't have time to find a clever solution now (it appears I'm supposed to work), so let's go bruteforcing and let it run... but it completed in about 90sec!
 
 Of course Q2P3 wouldn't be possible with bruteforce! Thought of linked list, but it seemed worst than my naive approach. I thought of recursion (but this made no sense). And I remembered about deque. Since it's based on linked list I assume my first implementation wasn't right. Anyway, it runs in about 10sec. It could probably be improved.
 I kept my solution for part 2 for archive purpose, but of course it could be replaced (using the deque solution reduce about 30% runtime)
+
+Q3P3 runs in ~3sec. This is not great, but this is surely correct!
