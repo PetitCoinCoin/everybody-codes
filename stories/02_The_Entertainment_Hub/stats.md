@@ -1,4 +1,4 @@
-Current ranking is 22nd by time and 24th by points. But this can still change!
+Current ranking is 26th by time and 27th by points. But this can still change!
 
 |Quest|Part|Global Rank|Global Time|Local Time|
 |---|---|---|---|---|

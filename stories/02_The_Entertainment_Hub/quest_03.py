@@ -64,8 +64,8 @@ def parse_input(raw: str, part: int) -> list:
         return [int(x) for x in raw_split[-1]]
     return raw_split[-1].split("\n")
 
-def build_board(rows: list) -> None:
-    for r, row in enumerate(rows):
+def build_board() -> None:
+    for r, row in enumerate(game):
         for c, char in enumerate(row):
             board[(r, c)] = int(char)
 
@@ -86,6 +86,16 @@ def play(dice: Dice) -> set:
                     next_positions.add((r + dr, c + dc))
         positions = next_positions
     return seen
+
+def easter_egg() -> None:
+    print("\n".join([
+        "".join([
+            "#" if (r, c) in coins else "."
+            for c in range(len(row))
+        ])
+        for r, row in enumerate(game)
+    ]))
+
 
 if __name__ == "__main__":
     args = _parse_args()
@@ -113,9 +123,10 @@ if __name__ == "__main__":
         print(",".join(str(x) for x in finished))
     else:
         board = dict()
-        build_board(game)
+        build_board()
         coins = set()
         for dice in data.values():
             coins |= play(dice)
+        easter_egg()
         print(len(coins))
     print(time() - t)
