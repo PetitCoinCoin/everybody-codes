@@ -1,4 +1,4 @@
-Current ranking is 26th by time and 27th by points. But this can still change!
+Final ranking is 26th by time and 27th by points! I'll never stay awake until midnight to be ready at release date XD.
 
 |Quest|Part|Global Rank|Global Time|Local Time|
 |---|---|---|---|---|
