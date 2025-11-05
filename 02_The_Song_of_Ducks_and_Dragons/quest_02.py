@@ -52,9 +52,16 @@ if __name__ == "__main__":
         print(list(cycle(3, Complex(10, 10), data)))
     else:
         steps = 10 if args.part == 2 else 1
-        print(sum(
-            can_be_engraved(cycle(100, Complex(100000,100000), c_add(data, Complex(r, c))))
+        points = [
+            [
+                can_be_engraved(cycle(100, Complex(100000,100000), c_add(data, Complex(c, r))))
+                for c in range(0, 1001, steps)
+            ]
             for r in range(0, 1001, steps)
-            for c in range(0, 1001, steps)
-        ))
+        ]
+        print("\n".join([
+            "".join(["X" if point else "." for point in row])
+            for row in points
+        ]))
+        print(sum(sum(row) for row in points))
     print(time() - t)
