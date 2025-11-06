@@ -6,9 +6,14 @@
 |2|I|59|0|11m 33s 106ms|11m 27s 945ms|
 |2|II|69|32|49m 32s 892ms|49m 27s 731ms|
 |2|III|72|79|55m 45s 836ms|55m 40s 675ms|
+|3|I|51|0|4m 11s 764ms|4m 09s 753ms|
+|3|II|62|39|7m 58s 374ms|7m 56s 363ms|
+|3|III|68|83|14m 18s 017ms|14m 16s 006ms|
 
 Nice start with quest 1! Naive approaches are still enough at this point :sweat_smile:
 
 So I tried this crazy idea for quest 2: go to bed, set an alarm 2min before midnight, and solve the quest with a fuzzy mind :laughing:. Not sure this will work for harder quests (python integer division already gave me a hard time here), but yeay 59/69/72 :tada:.
 Then back to bed, and clean up in the morning.
 It looks like `namedtuple` are really nice to ease the reading and comprehension, but they are less performant (part 3 runtime gets x2 with used of `namedtuple`). But on EC's Discord I discovered `Pypy` and wow. That's fast!
+
+Q3 was surprinsingly easy. Even if I panicked on part 3, thinking it would be a DP problem. But absolutely not.
