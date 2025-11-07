@@ -12,6 +12,9 @@
 |4|I|134|0|24m 38s 533ms|13m 03s 802ms|
 |4|II|119|0|27m 01s 441ms|15m 26s 710ms|
 |4|III|95|56|33m 10s 394ms|21m 35s 663ms|
+|5|I|58|0|12m 54s 046ms|12m 52s 005ms|
+|5|II|68|33|21m 14s 581ms|21m 12s 540ms|
+|5|III|68|83|45m 10s 342ms|45m 08s 301ms|
 
 Nice start with quest 1! Naive approaches are still enough at this point :sweat_smile:
 
