@@ -15,6 +15,9 @@
 |5|I|58|0|12m 54s 046ms|12m 52s 005ms|
 |5|II|68|33|21m 14s 581ms|21m 12s 540ms|
 |5|III|68|83|45m 10s 342ms|45m 08s 301ms|
+|6|I|89|0|5m 26s 839ms|5m 26s 139ms|
+|6|II|79|22|7m 09s 517ms|7m 08s 817ms|
+|6|III|108|43|56m 40s 404ms|56m 39s 704ms|
 
 Nice start with quest 1! Naive approaches are still enough at this point :sweat_smile:
 
@@ -25,3 +28,5 @@ It looks like `namedtuple` are really nice to ease the reading and comprehension
 Q3 was surprinsingly easy. Even if I panicked on part 3, thinking it would be a DP problem. But absolutely not.
 
 Once again, I panicked and over thought way too much Q4P1 until I realized it was simple.
+
+Python negative indexes are really nice until they aren't. I lost so much time on Q6P3. I also had a non-bruteforce approach, but with an off-by-one error, so it didn't work. Luckily I was able to submit the correct solution thanks to bruteforce (which ran in about 5min) and debugged the other way in the morning.
