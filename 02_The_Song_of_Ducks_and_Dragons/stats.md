@@ -18,6 +18,9 @@
 |6|I|89|0|5m 26s 839ms|5m 26s 139ms|
 |6|II|79|22|7m 09s 517ms|7m 08s 817ms|
 |6|III|108|43|56m 40s 404ms|56m 39s 704ms|
+|7|I|48|3|6m 56s 870ms|6m 42s 904ms|
+|7|II|36|65|8m 10s 526ms|7m 56s 560ms|
+|7|III|53|98|28m 32s 749ms|28m 18s 783ms|
 
 Nice start with quest 1! Naive approaches are still enough at this point :sweat_smile:
 
@@ -30,3 +33,5 @@ Q3 was surprinsingly easy. Even if I panicked on part 3, thinking it would be a 
 Once again, I panicked and over thought way too much Q4P1 until I realized it was simple.
 
 Python negative indexes are really nice until they aren't. I lost so much time on Q6P3. I also had a non-bruteforce approach, but with an off-by-one error, so it didn't work. Luckily I was able to submit the correct solution thanks to bruteforce (which ran in about 5min) and debugged the other way in the morning.
+
+Bruteforce Q7 to get my best result so far. But reworked this as part 3 took between 3 and 4 sec. Using `itertools`' `pairwise` in validity checked already improved significantly. I ended up with some "clever" bruteforce by calculating only what needed to be. It runs in about 350ms which is far from great from what I see on Discord, but already enough for me!
