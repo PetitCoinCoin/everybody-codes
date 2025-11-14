@@ -24,6 +24,9 @@
 |8|I|54|0|3m 53s 641ms|3m 52s 436ms|
 |8|II|96|5|32m 17s 593ms|32m 16s 388ms|
 |8|III|82|69|49m 41s 279ms|49m 40s 074ms|
+|9|I|108|0|14m 37s 958ms|14m 37s 242ms|
+|9|II|137|0|1h 23m 02s 049ms|1h 23m 01s 333ms|
+|9|III|198|0|9h 36m 49s 494ms|9h 36m 48s 778ms|
 
 Nice start with quest 1! Naive approaches are still enough at this point :sweat_smile:
 
@@ -40,3 +43,5 @@ Python negative indexes are really nice until they aren't. I lost so much time o
 Bruteforce Q7 to get my best result so far. But reworked this as part 3 took between 3 and 4 sec. Using `itertools`' `pairwise` in validity checked already improved significantly. I ended up with some "clever" bruteforce by calculating only what needed to be. It runs in about 350ms which is far from great from what I see on Discord, but already enough for me!
 
 I'm disappointed with Q8 as P3 runs in 15sec (first implem was 40sec, but doing it "the python way" improved a lot). I would want to rework this and find the clever way, but let's be honest, I won't.
+
+I overthought Q9 and how to find who is a child of who. Simple bruteforce seemed to be the way. And then, even though I do like for/else structure, it gets messy at 2AM. I had to debug this in the morning. Also, pypy to the request (3.5sec for part 3 instead of 35sec with python). But most of it is identifying children and parents.
