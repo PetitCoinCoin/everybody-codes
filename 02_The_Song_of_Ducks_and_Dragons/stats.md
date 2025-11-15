@@ -27,6 +27,9 @@
 |9|I|108|0|14m 37s 958ms|14m 37s 242ms|
 |9|II|137|0|1h 23m 02s 049ms|1h 23m 01s 333ms|
 |9|III|198|0|9h 36m 49s 494ms|9h 36m 48s 778ms|
+|10|I|64|0|15m 21s 121ms|15m 20s 457ms|
+|10|II|88|13|1h 08m 39s 510ms|1h 08m 38s 846ms|
+|10|III|110|41|11h 01m 40s 554ms|11h 01m 39s 890ms|
 
 Nice start with quest 1! Naive approaches are still enough at this point :sweat_smile:
 
@@ -45,3 +48,6 @@ Bruteforce Q7 to get my best result so far. But reworked this as part 3 took bet
 I'm disappointed with Q8 as P3 runs in 15sec (first implem was 40sec, but doing it "the python way" improved a lot). I would want to rework this and find the clever way, but let's be honest, I won't.
 
 I overthought Q9 and how to find who is a child of who. Simple bruteforce seemed to be the way. And then, even though I do like for/else structure, it gets messy at 2AM. I had to debug this in the morning. Also, pypy to the request (3.5sec for part 3 instead of 35sec with python). But most of it is identifying children and parents.
+
+Q10 was the last day I woke up during the night to start at release time. It now takes too long to solve (even more with a fuzzy brain).
+For P3, I tried BFS, DFS... ended taking a look at some hint and ended with DP (which is a nice exercise for me as I still struggle with this). P3 runs in ~40sec (but 4-5 minutes with pypy !)
