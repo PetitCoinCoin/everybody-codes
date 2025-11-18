@@ -30,6 +30,9 @@
 |10|I|64|0|15m 21s 121ms|15m 20s 457ms|
 |10|II|88|13|1h 08m 39s 510ms|1h 08m 38s 846ms|
 |10|III|110|41|11h 01m 40s 554ms|11h 01m 39s 890ms|
+|11|I|192|0|6h 08m 15s 523ms|20m 29s 349ms|
+|11|II|183|0|6h 10m 36s 634ms|22m 50s 460ms|
+|11|III|152|0|8h 34m 31s 175ms|2h 46m 45s 001ms|
 
 Nice start with quest 1! Naive approaches are still enough at this point :sweat_smile:
 
@@ -51,3 +54,5 @@ I overthought Q9 and how to find who is a child of who. Simple bruteforce seemed
 
 Q10 was the last day I woke up during the night to start at release time. It now takes too long to solve (even more with a fuzzy brain).
 For P3, I tried BFS, DFS... ended taking a look at some hint and ended with DP (which is a nice exercise for me as I still struggle with this). P3 runs in ~40sec (but 4-5 minutes with pypy !)
+
+Q11 was fun, especially P3. I knew it would run for hours if I didn't find the trick. Anyway, P2 is now the slowest part, with ~10sec (python) and ~0.5sec (pypy) runtimes. Also, 152nd for P3... so close to getting a point even if being late to the party :smiling_face_with_tear:
