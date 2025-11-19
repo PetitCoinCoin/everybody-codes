@@ -21,3 +21,13 @@ def parse_grid_of_int(lines: list[str]) -> tuple:
             max_c = c
         max_r = r
     return grid, max_r, max_c
+
+def parse_grid_of_char(lines: list[str], keep_only: str = "") -> tuple:
+    grid = {}
+    for r, line in enumerate(lines):
+        for c, char in enumerate(line):
+            if not keep_only or char in keep_only:
+                grid[(r, c)] = char
+            max_c = c
+        max_r = r
+    return grid, max_r, max_c
