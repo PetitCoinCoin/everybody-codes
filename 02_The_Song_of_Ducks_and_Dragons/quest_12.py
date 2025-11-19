@@ -1,9 +1,8 @@
 from pathlib import Path
 from time import time
 
+from utils.grids import get_next
 from utils.parsers import parse_args, parse_grid_of_int
-
-DIR = ((0, 1), (0, -1), (1, 0), (-1, 0))
 
 def chain_reaction(start: set[int]) -> set:
     ignited = start
@@ -14,9 +13,7 @@ def chain_reaction(start: set[int]) -> set:
             if barrel in fired:
                 continue
             fired.add(barrel)
-            r, c = barrel
-            for dr, dc in DIR:
-                next_barrel = r + dr, c + dc
+            for next_barrel in get_next(barrel):
                 if next_barrel not in destroyed and next_barrel in data and data[next_barrel] <= data[barrel]:
                     new_ignited.add(next_barrel)
         ignited = new_ignited
