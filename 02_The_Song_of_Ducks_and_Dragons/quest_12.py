@@ -1,30 +1,9 @@
-import argparse
-
 from pathlib import Path
 from time import time
 
-def _parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "--part", "-p",
-        type=int,
-        choices={1, 2, 3},
-        help="Set puzzle part"
-    )
-    args = parser.parse_args()
-    if not args.part:
-        parser.error("Which part are you solving?")
-    return args
+from utils.parsers import parse_args, parse_grid_of_int
 
 DIR = ((0, 1), (0, -1), (1, 0), (-1, 0))
-
-def parse_input(lines: list[str]) -> tuple[int]:
-    for r, line in enumerate(lines):
-        for c, val in enumerate(line):
-            data[(r, c)] = int(val)
-            max_c = c
-        max_r = r
-    return max_r, max_c
 
 def chain_reaction(start: set[int]) -> set:
     ignited = start
@@ -44,12 +23,12 @@ def chain_reaction(start: set[int]) -> set:
     return fired
 
 if __name__ == "__main__":
-    args = _parse_args()
+    args = parse_args()
     t = time()
     data = {}
     destroyed = set()
     with Path(f"{Path(__file__).parent}/inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
-        max_r, max_c = parse_input(file.read().strip().split("\n"))
+        data, max_r, max_c = parse_grid_of_int(file.read().strip().split("\n"))
     if args.part == 1:
         print(len(chain_reaction({(0, 0)})))
     elif args.part == 2:
