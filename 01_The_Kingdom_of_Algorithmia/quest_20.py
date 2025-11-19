@@ -92,7 +92,7 @@ if __name__ == "__main__":
     args = _parse_args()
     t = time()
     data = {}
-    with Path(f"inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
+    with Path(f"{Path(__file__).parent}/inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
         lines = file.read().split("\n")
         height = len(lines)
         width = len(lines[0])

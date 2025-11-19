@@ -36,7 +36,7 @@ def group_cost(group: str) -> int:
 if __name__ == "__main__":
     args = _parse_args()
     t = time()
-    with Path(f"inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
+    with Path(f"{Path(__file__).parent}/inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
         data = file.read()
     print(sum(group_cost(data[i:i + args.part]) for i in range(0, len(data), args.part)))
     print(time() - t)

@@ -42,7 +42,7 @@ def with_thickness(priests: int, acolytes: int, *, is_part_three: bool = False) 
 if __name__ == "__main__":
     args = _parse_args()
     t = time()
-    with Path(f"inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
+    with Path(f"{Path(__file__).parent}/inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
         data = int(file.read())
     if args.part == 1:
         # Solve x² + x/2 - data = 0: Sum of x first terms of an arithmetic serie, with common difference 2

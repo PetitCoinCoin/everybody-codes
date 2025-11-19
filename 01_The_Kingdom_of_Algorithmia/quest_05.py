@@ -69,7 +69,7 @@ if __name__ == "__main__":
     args = _parse_args()
     t = time()
     data = {}
-    with Path(f"inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
+    with Path(f"{Path(__file__).parent}/inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
         while line:=file.readline():
             for i, val in enumerate(line.split(" ")):
                 data[i] = data.get(i, [])

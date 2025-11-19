@@ -131,7 +131,7 @@ if __name__ == "__main__":
     args = _parse_args()
     t = time()
     data = {}
-    with Path(f"inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
+    with Path(f"{Path(__file__).parent}/inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
         i = 0
         nr = 0
         while line := file.readline():

@@ -104,7 +104,7 @@ if __name__ == "__main__":
     data = {}
     init_sheeps = set()
     hides = set()
-    with Path(f"inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
+    with Path(f"{Path(__file__).parent}/inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
         dragon, max_r, max_c = parse_input(file.read().strip())
     if args.part == 1:
         print(len(eat_sheeps(dragon, 4)))

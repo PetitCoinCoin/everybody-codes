@@ -135,7 +135,7 @@ if __name__ == "__main__":
     t = time()
     data = {}
     herbs = {}
-    with Path(f"inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
+    with Path(f"{Path(__file__).parent}/inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
         i = 0
         while line := file.readline():
             parse_input(data, herbs, line.strip(), i)

@@ -102,7 +102,7 @@ def parse_input(raw: str) -> tuple[Node] | int:
 if __name__ == "__main__":
     args = _parse_args()
     t = time()
-    with Path(f"inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
+    with Path(f"{Path(__file__).parent}/inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
         data = [parse_input(row) for row in file.read().strip().split("\n")]
     root_left, root_right = data[0]
     tree_left = Tree(root_left)

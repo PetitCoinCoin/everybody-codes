@@ -61,7 +61,7 @@ def play_simultaneously(ball_1: deque, ball_2: deque) -> int:
 if __name__ == "__main__":
     args = _parse_args()
     t = time()
-    with Path(f"inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
+    with Path(f"{Path(__file__).parent}/inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
         data = file.read().strip()
     if args.part == 1:
         print(play_in_line(data))

@@ -63,7 +63,7 @@ if __name__ == "__main__":
     args = _parse_args()
     t = time()
     game = set()
-    with Path(f"inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
+    with Path(f"{Path(__file__).parent}/inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
         final_row, right_border, tokens = parse_input(*file.read().strip().split("\n\n"))
     last_slot = position_to_slot(right_border)
     if args.part == 1:

@@ -60,7 +60,7 @@ if __name__ == "__main__":
     t = time()
     steps = {}
     data = {}
-    with Path(f"inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
+    with Path(f"{Path(__file__).parent}/inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
         lines = file.readlines()
         for i, line in enumerate(lines):
             if not i:

@@ -101,7 +101,7 @@ if __name__ == "__main__":
     args = _parse_args()
     t = time()
     data: dict[int, Dice] = dict()
-    with Path(f"inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
+    with Path(f"{Path(__file__).parent}/inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
         game = parse_input(file.read().strip(), args.part)
     if args.part == 1:
         points = 0

@@ -40,7 +40,7 @@ def get_beetles(brightness: int, stamps: list, *, is_part_three: bool = False) -
 if __name__ == "__main__":
     args = _parse_args()
     t = time()
-    with Path(f"inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
+    with Path(f"{Path(__file__).parent}/inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
         data = [int(x.strip()) for x in file.readlines()]
     if args.part == 1:
         stamps = [1, 3, 5, 10]

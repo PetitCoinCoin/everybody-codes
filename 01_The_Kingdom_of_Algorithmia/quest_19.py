@@ -91,7 +91,7 @@ if __name__ == "__main__":
     t = time()
     notes = ""
     data = {}
-    with Path(f"inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
+    with Path(f"{Path(__file__).parent}/inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
         lines = file.read()
         notes = lines.split("\n\n")[0]
         for i, line in enumerate(lines.split("\n\n")[1].split("\n")):

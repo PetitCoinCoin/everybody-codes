@@ -46,7 +46,6 @@ def phase_two(start: int) -> int:
                 moved = True
         if moved:       
             r += 1
-        print("**", r, flock_checksum(), data)
     return r
 
 def flock_checksum() -> int:
@@ -58,7 +57,7 @@ def flock_checksum() -> int:
 if __name__ == "__main__":
     args = _parse_args()
     t = time()
-    with Path(f"inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
+    with Path(f"{Path(__file__).parent}/inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
         data = [int(x) for x in file.read().strip().split("\n")]
     if args.part == 1:
         MAX_ROUNDS = 10

@@ -48,7 +48,7 @@ if __name__ == "__main__":
     t = time()
     data = {}
     destroyed = set()
-    with Path(f"inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
+    with Path(f"{Path(__file__).parent}/inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
         max_r, max_c = parse_input(file.read().strip().split("\n"))
     if args.part == 1:
         print(len(chain_reaction({(0, 0)})))

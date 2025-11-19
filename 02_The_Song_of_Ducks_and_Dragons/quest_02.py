@@ -46,7 +46,7 @@ def can_be_engraved(a: Complex) -> bool:
 if __name__ == "__main__":
     args = _parse_args()
     t = time()
-    with Path(f"inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
+    with Path(f"{Path(__file__).parent}/inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
         data = Complex(*tuple(int(x) for x in re.findall(r"A=\[(-?\d+),(-?\d+)\]", file.read())[0]))
     if args.part == 1:
         print(list(cycle(3, Complex(10, 10), data)))

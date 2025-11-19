@@ -54,7 +54,7 @@ def eni_sum(n: int, exp: int, mod: int) -> int:
 if __name__ == "__main__":
     args = _parse_args()
     t = time()
-    with Path(f"inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
+    with Path(f"{Path(__file__).parent}/inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
         data = [
             [int(x) for x in re.findall(r"(\d+)", row)]
             for row in file.read().strip().split("\n")

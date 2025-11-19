@@ -75,7 +75,7 @@ if __name__ == "__main__":
     t = time()
     data = {}
     trees = 0
-    with Path(f"inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
+    with Path(f"{Path(__file__).parent}/inputs/{Path(__file__).stem}_{args.part}.txt").open("r") as file:
         row = 0
         while line := file.readline():
             trees += parse_input(data, line.strip(), row)
