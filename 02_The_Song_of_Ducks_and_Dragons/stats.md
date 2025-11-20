@@ -65,4 +65,4 @@ Q11 was fun, especially P3. I knew it would run for hours if I didn't find the t
 
 Surprised by Q12, which was relatively easy (especially  after Q10 !). Anyway P3 is not optimal, but it works in a reasonnable amount of time, so that's enough. And again, so close to getting a point (153rd !)
 
-Q13 was also surprinsingly easy. P3 could probably be optimized (runs in 8-9sec). But I prefered to refactor the code in order to use exactly the same code for all 3 parts.
+Q13 was also surprinsingly easy. P3 could probably be optimized (runs in ~8sec). But I prefered to refactor the code in order to use exactly the same code for all 3 parts.

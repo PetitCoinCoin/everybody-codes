@@ -1,4 +1,5 @@
 from collections import deque
+from itertools import batched
 from pathlib import Path
 from time import time
 
@@ -18,11 +19,9 @@ if __name__ == "__main__":
     wheel = deque([1])
     turns = int("2025" * args.part)
     neg = 0
-    for i in range(len(data)):
-        if i % 2:
-            wheel.extendleft(data[i])
-            neg += len(data[i])
-        else:
-            wheel.extend(data[i])
+    for right, left in batched(data, 2):  # No need to handle shorter last batch, len(data) is even
+        wheel.extendleft(left)
+        neg += len(left)
+        wheel.extend(right)
     print(wheel[(neg + turns) % len(wheel)])
     print(time() - t)
