@@ -36,6 +36,9 @@
 |12|I|180|0|5h 52m 41s 984ms|10m 59s 450ms|
 |12|II|176|0|5h 55m 43s 131ms|14m 00s 597ms|
 |12|III|153|0|6h 08m 50s 898ms|27m 08s 364ms|
+|13|I|186|0|6h 38m 51s 592ms|5m 16s 566ms|
+|13|II|180|0|6h 43m 47s 418ms|10m 12s 392ms|
+|13|III|174|0|6h 49m 18s 301ms|15m 43s 275ms|
 
 Nice start with quest 1! Naive approaches are still enough at this point :sweat_smile:
 
@@ -61,3 +64,5 @@ For P3, I tried BFS, DFS... ended taking a look at some hint and ended with DP (
 Q11 was fun, especially P3. I knew it would run for hours if I didn't find the trick. Anyway, P2 is now the slowest part, with ~10sec (python) and ~0.5sec (pypy) runtimes. Also, 152nd for P3... so close to getting a point even if being late to the party :smiling_face_with_tear:
 
 Surprised by Q12, which was relatively easy (especially  after Q10 !). Anyway P3 is not optimal, but it works in a reasonnable amount of time, so that's enough. And again, so close to getting a point (153rd !)
+
+Q13 was also surprinsingly easy. P3 could probably be optimized (runs in 8-9sec). But I prefered to refactor the code in order to use exactly the same code for all 3 parts.
