@@ -39,6 +39,9 @@
 |13|I|186|0|6h 38m 51s 592ms|5m 16s 566ms|
 |13|II|180|0|6h 43m 47s 418ms|10m 12s 392ms|
 |13|III|174|0|6h 49m 18s 301ms|15m 43s 275ms|
+|14|I|85|0|18m 41s 257ms|18m 40s 162ms|
+|14|II|83|18|19m 33s 521ms|19m 32s 426ms|
+|14|III|63|88|58m 11s 123ms|58m 10s 028ms|
 
 Nice start with quest 1! Naive approaches are still enough at this point :sweat_smile:
 
@@ -66,3 +69,5 @@ Q11 was fun, especially P3. I knew it would run for hours if I didn't find the t
 Surprised by Q12, which was relatively easy (especially  after Q10 !). Anyway P3 is not optimal, but it works in a reasonnable amount of time, so that's enough. And again, so close to getting a point (153rd !)
 
 Q13 was also surprinsingly easy. P3 could probably be optimized (runs in ~8sec). But I prefered to refactor the code in order to use exactly the same code for all 3 parts.
+
+I like when it's not just code, but also analyzing the input. Q14P3 was fun in that way!
