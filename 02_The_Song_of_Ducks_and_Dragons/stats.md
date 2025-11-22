@@ -42,6 +42,9 @@
 |14|I|85|0|18m 41s 257ms|18m 40s 162ms|
 |14|II|83|18|19m 33s 521ms|19m 32s 426ms|
 |14|III|63|88|58m 11s 123ms|58m 10s 028ms|
+|15|I|46|5|20m 18s 191ms|20m 17s 557ms|
+|15|II|37|64|21m 10s 483ms|21m 09s 849ms|
+|15|III|149|2|23h 15m 01s 805ms|23h 15m 01s 171ms|
 
 Nice start with quest 1! Naive approaches are still enough at this point :sweat_smile:
 
@@ -71,3 +74,5 @@ Surprised by Q12, which was relatively easy (especially  after Q10 !). Anyway P3
 Q13 was also surprinsingly easy. P3 could probably be optimized (runs in ~8sec). But I prefered to refactor the code in order to use exactly the same code for all 3 parts.
 
 I like when it's not just code, but also analyzing the input. Q14P3 was fun in that way!
+
+Q15 was epic! My best time for P1, second best for P2. It took me a whole day (literally) to get p3, and I still got 2 tiny points! Also, I discovered `operators` library and it is a nice discovery to handle operators and avoid big if/else structure.
