@@ -45,6 +45,9 @@
 |15|I|46|5|20m 18s 191ms|20m 17s 557ms|
 |15|II|37|64|21m 10s 483ms|21m 09s 849ms|
 |15|III|149|2|23h 15m 01s 805ms|23h 15m 01s 171ms|
+|16|I|34|17|2m 53s 846ms|2m 53s 210ms|
+|16|II|49|52|13m 39s 889ms|13m 39s 253ms|
+|16|III|48|103|38m 22s 048ms|38m 21s 412ms|
 
 Nice start with quest 1! Naive approaches are still enough at this point :sweat_smile:
 
@@ -76,3 +79,5 @@ Q13 was also surprinsingly easy. P3 could probably be optimized (runs in ~8sec).
 I like when it's not just code, but also analyzing the input. Q14P3 was fun in that way!
 
 Q15 was epic! My best time for P1, second best for P2. It took me a whole day (literally) to get p3, and I still got 2 tiny points! Also, I discovered `operators` library and it is a nice discovery to handle operators and avoid big if/else structure.
+
+So happy with Q16. Fast solving, fast runtime!
