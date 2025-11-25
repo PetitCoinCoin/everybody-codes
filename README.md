@@ -1,12 +1,14 @@
 # Everybody codes
-Yet another coding challenge: https://everybody.codes
+### Quack!  another coding challenge: https://everybody.codes
 
-[The Kingdom of Algorithmia](01_The_Kingdom_of_Algorithmia/stats.md)
+##### Events
 
-[The Song of Ducks and Dragons](02_The_Song_of_Ducks_and_Dragons/stats.md)
+[2024 The Kingdom of Algorithmia](2024_The_Kingdom_of_Algorithmia/stats.md)
 
-#### Stories
+[2025 The Song of Ducks and Dragons](2025_The_Song_of_Ducks_and_Dragons/stats.md)
 
-[Echoes of Enigmatus](stories/01_Echoes_of_Enigmatus/stats.md)
+##### Stories
 
-[The Entertainement Hub](stories/02_The_Entertainment_Hub/stats.md)
+[01 Echoes of Enigmatus](stories/01_Echoes_of_Enigmatus/stats.md)
+
+[02 The Entertainement Hub](stories/02_The_Entertainment_Hub/stats.md)
