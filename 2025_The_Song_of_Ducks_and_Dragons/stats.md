@@ -48,6 +48,9 @@
 |16|I|34|17|2m 53s 846ms|2m 53s 210ms|
 |16|II|49|52|13m 39s 889ms|13m 39s 253ms|
 |16|III|48|103|38m 22s 048ms|38m 21s 412ms|
+|17|I|75|0|10m 15s 554ms|10m 14s 891ms|
+|17|II|59|42|19m 11s 723ms|19m 11s 060ms|
+|17|III|155|0|14h 22m 48s 689ms|14h 22m 48s 026ms|
 
 Nice start with quest 1! Naive approaches are still enough at this point :sweat_smile:
 
@@ -81,3 +84,5 @@ I like when it's not just code, but also analyzing the input. Q14P3 was fun in t
 Q15 was epic! My best time for P1, second best for P2. It took me a whole day (literally) to get p3, and I still got 2 tiny points! Also, I discovered `operators` library and it is a nice discovery to handle operators and avoid big if/else structure.
 
 So happy with Q16. Fast solving, fast runtime!
+
+Q17P3 gave me a hard time but I'm really happy I found the solution without any hint. Circling the volcano wasn't easy to apprehend. As I wasn't really happy with the runtime, I took a look at other solutions, and it turns out, some are similar, so overall, I'm happy :)
