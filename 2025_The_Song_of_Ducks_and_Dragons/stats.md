@@ -51,6 +51,9 @@
 |17|I|75|0|10m 15s 554ms|10m 14s 891ms|
 |17|II|59|42|19m 11s 723ms|19m 11s 060ms|
 |17|III|155|0|14h 22m 48s 689ms|14h 22m 48s 026ms|
+|18[I|47|4|25m 31s 542ms|25m 30s 409ms|
+|18|II|38|63|34m 35s 319ms|34m 34s 186ms|
+|18|III|116|35|6h 48m 28s 782ms|6h 48m 27s 649ms|
 
 Nice start with quest 1! Naive approaches are still enough at this point :sweat_smile:
 
@@ -86,3 +89,5 @@ Q15 was epic! My best time for P1, second best for P2. It took me a whole day (l
 So happy with Q16. Fast solving, fast runtime!
 
 Q17P3 gave me a hard time but I'm really happy I found the solution without any hint. Circling the volcano wasn't easy to apprehend. As I wasn't really happy with the runtime, I took a look at other solutions, and it turns out, some are similar, so overall, I'm happy :)
+
+I wonder if there is a general solution for Q18P3 (that doesn't involve crashing because og burteforce to find the maximum possible energy - yep I did try, even though I knew 2^81 is too big). Also, I took this opportunity to try the walrus operator.
