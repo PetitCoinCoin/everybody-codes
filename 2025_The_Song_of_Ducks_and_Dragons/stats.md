@@ -1,3 +1,7 @@
+I enjoyed this year a lot: the puzzles were really fun, for sure. But I also discovered a nice community on Discord.
+
+Trying to do the puzzle as soon as they were released _really_ messed up my sleep. I ended up exhausted. But I don't know, this was also part of the fun. Final rankings on the leaderboard seem to be 76 (by points) and 59 (by time). :tada:
+
 |Quest|Part|Global Rank|Global Score|Global Time|Local Time|
 |---|---|---|---|---|---|
 |1|I|207|0|5h 34m 29s 469ms|6m 43s 994ms|
@@ -57,6 +61,9 @@
 |19|I|81|0|43m 18s 422ms|43m 17s 752ms|
 |19|II|63|38|46m 36s 872ms|46m 36s 202ms|
 |19|III|21|130|49m 20s 929ms|49m 20s 259ms|
+|20|I|31|20|8m 31s 014ms|8m 29s 955ms|
+|20|II|34|67|18m 27s 396ms|18m 26s 337ms|
+|20|III|50|101|1h 26m 22s 421ms|1h 26m 21s 362ms|
 
 Nice start with quest 1! Naive approaches are still enough at this point :sweat_smile:
 
@@ -96,3 +103,5 @@ Q17P3 gave me a hard time but I'm really happy I found the solution without any 
 I wonder if there is a general solution for Q18P3 (that doesn't involve crashing because og burteforce to find the maximum possible energy - yep I did try, even though I knew 2^81 is too big). Also, I took this opportunity to try the walrus operator.
 
 Total panic for Q19P1. It's clearly difficult with a fuzzy brain awakening in the middle of the night. But then, solution worked for all 3 parts (minor update on input parsing). P3 runs in about 45sec with pypy (2min30 with python).
+
+Q20 was really fun. Not too easy, not too heard, a perfect end of event.
