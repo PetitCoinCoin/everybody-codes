@@ -12,3 +12,5 @@
 [01 Echoes of Enigmatus](stories/01_Echoes_of_Enigmatus/stats.md)
 
 [02 The Entertainement Hub](stories/02_The_Entertainment_Hub/stats.md)
+
+[03 Melody Made of Code](stories/03_Melody_Made_of_Code/stats.md)
