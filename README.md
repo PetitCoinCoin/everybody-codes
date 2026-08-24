@@ -14,3 +14,5 @@
 [02 The Entertainement Hub](stories/02_The_Entertainment_Hub/stats.md)
 
 [03 Melody Made of Code](stories/03_Melody_Made_of_Code/stats.md)
+
+[04 The Digital Atelier](stories/04_The_Digital_Atelier/)
