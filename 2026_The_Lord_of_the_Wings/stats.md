@@ -1,0 +1,11 @@
+Back for another fun event! Always struggling with the _when_. Should I sleep, should I wake up? We'll see.
+
+Also, as I have to use AI in my daily work, this feel strange to actually code again. And use my brain for that. And it feels good :relieved:
+
+|Quest|Part|Global Rank|Global Score|Global Time|Local Time|
+|---|---|---|---|---|---|
+|1|I|64|0|21m 39s 867ms|6m 29s 466ms|
+|1|II|61|40|33m 20s 053ms|18m 09s 652ms|
+|1|III|56|95|37m 19s 497ms|22m 09s 096ms|
+
+Nice start with Q1. It looks like I couldn't even remember how to do the power function in python. I started with an alaram, then thought "I'm tired, let's be wise and do it in the morning". But then I woke up at 00:13 and couldn't resist :joy:. I kept bruteforce for the night and cleaned everything in the morning.

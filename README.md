@@ -1,11 +1,13 @@
 # Everybody codes
-### Quack!  another coding challenge: https://everybody.codes
+### Quack! another coding challenge: https://everybody.codes
 
 ##### Events
 
 [2024 The Kingdom of Algorithmia](2024_The_Kingdom_of_Algorithmia/stats.md)
 
 [2025 The Song of Ducks and Dragons](2025_The_Song_of_Ducks_and_Dragons/stats.md)
+
+[2026 The Lord of the Wings](2026_The_Lord_of_the_Wings/stats.md)
 
 ##### Stories
 
