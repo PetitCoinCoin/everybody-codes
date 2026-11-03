@@ -17,4 +17,4 @@
 
 [03 Melody Made of Code](stories/03_Melody_Made_of_Code/stats.md)
 
-[04 The Digital Atelier](stories/04_The_Digital_Atelier/)
+[04 The Digital Atelier](stories/04_The_Digital_Atelier/stats.md)

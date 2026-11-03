@@ -8,7 +8,7 @@ Also, as I have to use AI in my daily work, this feel strange to actually code a
 |1|II|61|40|33m 20s 053ms|18m 09s 652ms|
 |1|III|56|95|37m 19s 497ms|22m 09s 096ms|
 |2|I|40|11|17m 55s 377ms|17m 34s 173ms|
-|2|II|38|63	30m 05s 998ms|29m 44s 794ms|
+|2|II|38|63|30m 05s 998ms|29m 44s 794ms|
 |2|III|49|102|59m 20s 938ms|58m 59s 734ms|
 |3|I|43|8|9m 54s 591ms|9m 53s 525ms|
 |3|II|40|61|17m 51s 486ms|17m 50s 420ms|

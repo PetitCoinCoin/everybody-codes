@@ -14,6 +14,6 @@ I did not expect to still be in the top 100 by time, because of Q3P3, but here I
 
 Q1 is surprisingly easy. I wonder if there was another approach for P3, with less bruteforce. Also, I didn't expect any point as I plan to do this story in the morning, so about 7 hours after the release.
 
-Nevermind, Q2P2 escalated quicly :joy:. 7sec (python) / 3sec (pypy) runtime for P3, but that will be fine (I have to work now).
+Nevermind, Q2P2 escalated quickly :joy:. 7sec (python) / 3sec (pypy) runtime for P3, but that will be fine (I have to work now).
 
 Q3P3 took me forever because of a tiny mistake. I couldn't find it in the first day, then I just assumed there was no point to get from it and let it down for a few days, because you know, life. I finally took the time to solve it manually and found this tiny (and yet important) mistake!
