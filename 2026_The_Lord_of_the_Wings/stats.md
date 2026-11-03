@@ -19,6 +19,9 @@ Also, as I have to use AI in my daily work, this feel strange to actually code a
 |5|I|48|3|33m 52s 274ms|33m 51s 768ms|
 |5|II|44|57|46m 21s 117ms|46m 20s 611ms|
 |5|III|105|46|8h 35m 36s 596ms|8h 35m 36s 090ms|
+|6|I|53|0|18m 48s 718ms|18m 48s 175ms|
+|6|II|53|48|26m 59s 676ms|26m 59s 133ms|
+|6|III||46|105|33m 17s 782ms|33m 17s 239ms|
 
 Nice start with Q1. It looks like I couldn't even remember how to do the power function in python. I started with an alaram, then thought "I'm tired, let's be wise and do it in the morning". But then I woke up at 00:13 and couldn't resist :joy:. I kept bruteforce for the night and cleaned everything in the morning.
 
@@ -29,3 +32,5 @@ I implemented cache for Q3, made mistakes with it. Only to discover it wasn't ne
 I had a correct solution at first for Q4. While cleaning, I thought using OOP would be nice!
 
 I'm so disappointed by me for Q5 :sob:. It turns out my solution was perfectly working for P3, running in about half a second. Except that I messed up my tree pattern transcription (2 neighbors were added twice, and 2 were missing). It costed me several hours as I went back to sleep (debugging in the middle of the night is not the best).
+
+Q6 went well, even though I seem to have trouble with recursion :laughing:. I can't do it properly for P1, without using a global variable. I'm stuck in infinite loop. Anyway, P3 runs in about half a sec, it's fine!
