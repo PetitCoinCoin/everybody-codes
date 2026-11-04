@@ -21,7 +21,10 @@ Also, as I have to use AI in my daily work, this feel strange to actually code a
 |5|III|105|46|8h 35m 36s 596ms|8h 35m 36s 090ms|
 |6|I|53|0|18m 48s 718ms|18m 48s 175ms|
 |6|II|53|48|26m 59s 676ms|26m 59s 133ms|
-|6|III||46|105|33m 17s 782ms|33m 17s 239ms|
+|6|III|46|105|33m 17s 782ms|33m 17s 239ms|
+|7|I|24|27|15m 08s 870ms|15m 08s 724ms|
+|7|II|20|81|16m 30s 767ms|16m 30s 621ms|
+|7|III|77|74|7h 01m 54s 387ms|7h 01m 54s 241ms|
 
 Nice start with Q1. It looks like I couldn't even remember how to do the power function in python. I started with an alaram, then thought "I'm tired, let's be wise and do it in the morning". But then I woke up at 00:13 and couldn't resist :joy:. I kept bruteforce for the night and cleaned everything in the morning.
 
