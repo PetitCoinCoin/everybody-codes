@@ -28,6 +28,9 @@ Also, as I have to use AI in my daily work, this feel strange to actually code a
 |8|I|107|0|6h 18m 40s 121ms|20m 59s 380ms|
 |8|II|101|0|6h 45m 50s 085ms|48m 09s 344ms|
 |8|III|76|75|7h 30m 35s 331ms|1h 32m 54s 590ms|
+|13|I|131|0|1d 09h 21m 56s 229ms|1d 02h 25m 02s 560ms|
+|13|II|118|0|1d 10h 11m 54s 970ms|1d 03h 15m 01s 301ms|
+|13|III|116|35|1d 17h 56m 52s 886ms|1d 10h 59m 59s 217ms|
 
 Nice start with Q1. It looks like I couldn't even remember how to do the power function in python. I started with an alaram, then thought "I'm tired, let's be wise and do it in the morning". But then I woke up at 00:13 and couldn't resist :joy:. I kept bruteforce for the night and cleaned everything in the morning.
 
@@ -42,3 +45,7 @@ I'm so disappointed by me for Q5 :sob:. It turns out my solution was perfectly w
 Q6 went well, even though I seem to have trouble with recursion :laughing:. I can't do it properly for P1, without using a global variable. I'm stuck in infinite loop. Anyway, P3 runs in about half a sec, it's fine!
 
 This second week is relatively easy for now. I'm a bit disappointed because I didn't wake for Q8, but as I was really tired, it felt like the right thinkg to do!
+
+Haha! Nevermind, week 3 hits really hard. I can't manage to solve the parts 3 in a reasonable amount of time.
+
+So, I managed to do Q13P3, and surprisingly got points for it. So-many-off-by-ones. EVERYWHERE.
