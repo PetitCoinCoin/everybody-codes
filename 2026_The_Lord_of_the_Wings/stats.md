@@ -31,6 +31,9 @@ Also, as I have to use AI in my daily work, this feel strange to actually code a
 |13|I|131|0|1d 09h 21m 56s 229ms|1d 02h 25m 02s 560ms|
 |13|II|118|0|1d 10h 11m 54s 970ms|1d 03h 15m 01s 301ms|
 |13|III|116|35|1d 17h 56m 52s 886ms|1d 10h 59m 59s 217ms|
+|15|I|70|0|7h 37m 13s 379ms|35m 50s 361ms|
+|15|II|62|39|7h 42m 27s 088ms|41m 04s 070ms|
+|15|III|96|55|1d 13h 21m 11s 189ms|1d 06h 19m 48s 171ms|
 
 Nice start with Q1. It looks like I couldn't even remember how to do the power function in python. I started with an alaram, then thought "I'm tired, let's be wise and do it in the morning". But then I woke up at 00:13 and couldn't resist :joy:. I kept bruteforce for the night and cleaned everything in the morning.
 
@@ -49,3 +52,5 @@ This second week is relatively easy for now. I'm a bit disappointed because I di
 Haha! Nevermind, week 3 hits really hard. I can't manage to solve the parts 3 in a reasonable amount of time.
 
 So, I managed to do Q13P3, and surprisingly got points for it. So-many-off-by-ones. EVERYWHERE.
+
+I'm a bit disappointed by my grid walking for Q15, but so happy I found the trick for P3 :partying_face:
