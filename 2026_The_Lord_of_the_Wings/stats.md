@@ -34,6 +34,9 @@ Also, as I have to use AI in my daily work, this feel strange to actually code a
 |15|I|70|0|7h 37m 13s 379ms|35m 50s 361ms|
 |15|II|62|39|7h 42m 27s 088ms|41m 04s 070ms|
 |15|III|96|55|1d 13h 21m 11s 189ms|1d 06h 19m 48s 171ms|
+|17|I|84|0|5h 59m 21s 578ms|8m 21s 604ms|
+|17|II|74|27|6h 10m 55s 951ms|19m 55s 977ms|
+|17|III|67|84|6h 43m 06s 056ms|52m 06s 082ms|
 
 Nice start with Q1. It looks like I couldn't even remember how to do the power function in python. I started with an alaram, then thought "I'm tired, let's be wise and do it in the morning". But then I woke up at 00:13 and couldn't resist :joy:. I kept bruteforce for the night and cleaned everything in the morning.
 
@@ -54,3 +57,5 @@ Haha! Nevermind, week 3 hits really hard. I can't manage to solve the parts 3 in
 So, I managed to do Q13P3, and surprisingly got points for it. So-many-off-by-ones. EVERYWHERE.
 
 I'm a bit disappointed by my grid walking for Q15, but so happy I found the trick for P3 :partying_face:
+
+Really happy with Q17. I started to implement the walk for P2, and found the trick really and stopped implementation. Sure the full walk is still useful for P3, but it doesn't have to be clever to find the shortest path. Just follow the edge, once you have a path, you have the other one. Note: my Q16P3 bruteforce solution is still running (it's been about 24h :rofl:). I know I'm on the right path to solve it correctly, but didn't manage to finish it yet.
