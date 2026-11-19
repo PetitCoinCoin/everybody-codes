@@ -40,6 +40,9 @@ Also, as I have to use AI in my daily work, this feel strange to actually code a
 |17|I|84|0|5h 59m 21s 578ms|8m 21s 604ms|
 |17|II|74|27|6h 10m 55s 951ms|19m 55s 977ms|
 |17|III|67|84|6h 43m 06s 056ms|52m 06s 082ms|
+|18|I|80|0|6h 37m 55s 833ms|34m 42s 302ms|
+|18|II|80|21|6h 43m 21s 862ms|40m 08s 331ms|
+|18|III|74|77|6h 44m 46s 080ms|41m 32s 549ms|
 
 Nice start with Q1. It looks like I couldn't even remember how to do the power function in python. I started with an alaram, then thought "I'm tired, let's be wise and do it in the morning". But then I woke up at 00:13 and couldn't resist :joy:. I kept bruteforce for the night and cleaned everything in the morning.
 
