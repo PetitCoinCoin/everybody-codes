@@ -43,6 +43,9 @@ Also, as I have to use AI in my daily work, this feel strange to actually code a
 |18|I|80|0|6h 37m 55s 833ms|34m 42s 302ms|
 |18|II|80|21|6h 43m 21s 862ms|40m 08s 331ms|
 |18|III|74|77|6h 44m 46s 080ms|41m 32s 549ms|
+|19|I|85|0|5h 37m 07s 705ms|15m 19s 593ms|
+|19|II|83|18|5h 49m 46s 161ms|27m 58s 049ms|
+|19|III|72|79|6h 11m 36s 373ms|49m 48s 261ms|
 
 Nice start with Q1. It looks like I couldn't even remember how to do the power function in python. I started with an alaram, then thought "I'm tired, let's be wise and do it in the morning". But then I woke up at 00:13 and couldn't resist :joy:. I kept bruteforce for the night and cleaned everything in the morning.
 
@@ -67,3 +70,5 @@ I'm a bit disappointed by my grid walking for Q15, but so happy I found the tric
 Really happy with Q17. I started to implement the walk for P2, and found the trick really and stopped implementation. Sure the full walk is still useful for P3, but it doesn't have to be clever to find the shortest path. Just follow the edge, once you have a path, you have the other one. Note: my Q16P3 bruteforce solution is still running (it's been about 24h :rofl:). I know I'm on the right path to solve it correctly, but didn't manage to finish it yet.
 
 Q16P3 finally gave me an answer after 28h and 25min :rofl:. A couple of minutes later, I finally solved it "correctly". I'm pretty sure I'll never be able to understand what I wrote later. And it still runs in ~50sec for P3. But I made it!
+
+Q19 was nice to use a few new functions like zip_longest (it's not mandatory, but it's fun to test new stuff) or reduce.
