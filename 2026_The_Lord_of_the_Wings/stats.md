@@ -46,6 +46,9 @@ Also, as I have to use AI in my daily work, this feel strange to actually code a
 |19|I|85|0|5h 37m 07s 705ms|15m 19s 593ms|
 |19|II|83|18|5h 49m 46s 161ms|27m 58s 049ms|
 |19|III|72|79|6h 11m 36s 373ms|49m 48s 261ms|
+|20|I|84|0|2h 37m 33s 773ms|6m 07s 858ms|
+|20|II|82|19|2h 51m 19s 326ms|19m 53s 411ms|
+|20|III|111|40|18h 28m 41s 075ms|15h 57m 15s 160ms|
 
 Nice start with Q1. It looks like I couldn't even remember how to do the power function in python. I started with an alaram, then thought "I'm tired, let's be wise and do it in the morning". But then I woke up at 00:13 and couldn't resist :joy:. I kept bruteforce for the night and cleaned everything in the morning.
 
@@ -72,3 +75,5 @@ Really happy with Q17. I started to implement the walk for P2, and found the tri
 Q16P3 finally gave me an answer after 28h and 25min :rofl:. A couple of minutes later, I finally solved it "correctly". I'm pretty sure I'll never be able to understand what I wrote later. And it still runs in ~50sec for P3. But I made it!
 
 Q19 was nice to use a few new functions like zip_longest (it's not mandatory, but it's fun to test new stuff) or reduce.
+
+Well Q20 is not beautiful, but it works. A bad copy-paste costed me a few hours as I put P3 aside and couldn't come back to it for some time. Now it's time to fill the gaps in the other quests!
